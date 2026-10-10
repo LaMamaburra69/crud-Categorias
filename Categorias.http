@@ -1,0 +1,14 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+
+### Crear categoria
+POST http://localhost:8081/api/categorias
+Content-Type: application/json
+
+{"nombre":"Perifericos","descripcion":"Mouse, teclados, audifonos"}
+
+### Listar categorias
+GET http://localhost:8081/api/categorias
